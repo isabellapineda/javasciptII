@@ -9,8 +9,7 @@ function getChar(event)
 			return null;
 }
 function validar_check(check){
-	
-	if (select.selectedIndex ==false)
+	if (check.checked == false)
 	{
 		alert("Debe seleccionar el checkbox");
 		return false;
